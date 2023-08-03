@@ -1,2 +1,6 @@
 // import partials
-@import "./partials/reset";
+@import "./partials/reset", "./partials/navigation";
+
+body{
+    background-color: #757575;
+}
