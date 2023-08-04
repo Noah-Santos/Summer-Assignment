@@ -2,11 +2,11 @@ body{
     // edits the burger for the nav bar
     .burger{
         margin: {
-            left: .5rem;
+            left: 1rem;
             top: .5rem;
         };
-        width: 7%;
-        height: 7%;
+        width: 4rem;
+        height: 4rem;
         position: absolute;
         top: 0rem; left: 0rem;
     }
@@ -45,7 +45,7 @@ body{
                 text-decoration: none;
                 justify-content: center;
                 color: white;
-                font-size: 200%;
+                font-size: 250%;
                 display: none;
             }
         }
