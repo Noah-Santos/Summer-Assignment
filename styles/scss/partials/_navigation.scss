@@ -14,7 +14,7 @@ body{
     // edits the nav section and makes it not visible
     nav{
         width: 0%;
-        position: sticky;
+        position: absolute;
         top: 0rem; left: 0rem;
         z-index: 5;
         // transform: translateX(-100%);
@@ -25,7 +25,8 @@ body{
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
-            margin-top: 4rem;
+            align-items: center;
+            margin-top: 5rem;
 
             // close button for the nav
             .x {
@@ -40,13 +41,22 @@ body{
                 display: none;
             }
 
-            // edits the links within the nav
-            .navLink{
-                text-decoration: none;
-                justify-content: center;
-                color: white;
-                font-size: 250%;
-                display: none;
+            .containerLink{
+                width: fit-content;
+
+                // edits the links within the nav
+                .navLink {
+                    text-decoration: none;
+                    justify-content: center;
+                    color: white;
+                    font-size: 250%;
+                    display: none;
+                }
+            
+                // adds underline if links is active
+                .activeLink {
+                    border-bottom: 5px solid white;
+                }
             }
         }
     }

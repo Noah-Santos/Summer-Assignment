@@ -1,7 +1,7 @@
 $(function(){
     // when burger is clicked, open nav
     $("#burger").click(function(){
-        $(".nav").animate({width: "30%"}, 300).delay(50).promise().done(function(){
+        $(".nav").animate({width: "28%"}, 300).delay(50).promise().done(function(){
             $(".x").css("display", "block");
             $(".navLink").css("display", "flex");
         });

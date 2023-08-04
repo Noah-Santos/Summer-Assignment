@@ -1,0 +1,21 @@
+body{
+    // section for the content of the home page
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        // moves the home title and it's properties
+        .homeTitle {
+            color: white;
+            text-align: center;
+            font-size: 400%;
+            margin-top: 7rem;
+        }
+
+        .homeImg{
+            margin-top: 1rem;
+            border-radius: 100%;
+        }
+    }
+}

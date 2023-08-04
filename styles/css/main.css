@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   font-family: drawText2;
-  color: rgb(151, 151, 151);
 }
 
 body, html {
@@ -25,7 +24,7 @@ body .burger {
 }
 body nav {
   width: 0%;
-  position: sticky;
+  position: absolute;
   top: 0rem;
   left: 0rem;
   z-index: 5;
@@ -35,7 +34,8 @@ body nav .navContent {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin-top: 4rem;
+  align-items: center;
+  margin-top: 5rem;
 }
 body nav .navContent .x {
   position: absolute;
@@ -47,12 +47,18 @@ body nav .navContent .x {
   margin-left: 1rem;
   display: none;
 }
-body nav .navContent .navLink {
+body nav .navContent .containerLink {
+  width: fit-content;
+}
+body nav .navContent .containerLink .navLink {
   text-decoration: none;
   justify-content: center;
   color: white;
   font-size: 250%;
   display: none;
+}
+body nav .navContent .containerLink .activeLink {
+  border-bottom: 5px solid white;
 }
 
 @font-face {
@@ -67,6 +73,22 @@ body nav .navContent .navLink {
   font-family: batman2;
   src: url(../scss/fonts/DkcForever-ZGXq.ttf);
 }
+body section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body section .homeTitle {
+  color: white;
+  text-align: center;
+  font-size: 400%;
+  margin-top: 7rem;
+}
+body section .homeImg {
+  margin-top: 1rem;
+  border-radius: 100%;
+}
+
 body {
   background-color: #757575;
 }/*# sourceMappingURL=main.css.map */
