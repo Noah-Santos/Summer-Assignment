@@ -1,0 +1,49 @@
+body{
+    // making a basic flexbox
+    .flexbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        // make the section for the for one row
+        .tokyoSection{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+
+            // actual text container
+            .textCont{                
+                height: auto;
+                display: flex;
+                align-items: center;
+                margin: {
+                    left: 8vw;
+                    right: 8vw
+                };
+                
+                // the actual text in the text section
+                .text{
+                    color: white;
+                    background-color: #1e1e1e;
+                    text-align: center;
+                    border-radius: 20px;
+                    padding: {
+                        top: 2vh;
+                        bottom: 2vh;
+                    };
+                    margin-bottom: 0;
+                }
+            }
+
+            // edits the images
+            .img {
+                // display: flex;
+                // flex-grow: 2;
+                width: 20vw;
+                border-radius: 20px;
+                margin-right: 8vw;
+            }
+        }
+    }
+}

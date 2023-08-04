@@ -97,6 +97,39 @@ body section .homeText {
   font-size: 4vw;
 }
 
+body .flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+body .flexbox .tokyoSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+body .flexbox .tokyoSection .textCont {
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin-left: 8vw;
+  margin-right: 8vw;
+}
+body .flexbox .tokyoSection .textCont .text {
+  color: white;
+  background-color: #1e1e1e;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  margin-bottom: 0;
+}
+body .flexbox .tokyoSection .img {
+  width: 20vw;
+  border-radius: 20px;
+  margin-right: 8vw;
+}
+
 body {
   background-color: #757575;
 }/*# sourceMappingURL=main.css.map */
