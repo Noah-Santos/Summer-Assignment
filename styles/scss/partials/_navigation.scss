@@ -5,8 +5,8 @@ body{
             left: 1rem;
             top: .5rem;
         };
-        width: 4rem;
-        height: 4rem;
+        width: 6.5vw;
+        height: auto;
         position: absolute;
         top: 0rem; left: 0rem;
         z-index: 2;
@@ -33,8 +33,8 @@ body{
             .x {
                 position: absolute;
                 top: 0; left: 0;
-                width: 4rem;
-                height: 4rem; 
+                width: 6.5vw;
+                height: auto; 
                 margin: {
                     top: 1rem;
                     left: 1rem;
@@ -50,7 +50,7 @@ body{
                     text-decoration: none;
                     justify-content: center;
                     color: white;
-                    font-size: 250%;
+                    font-size: 3.5vw;
                     display: none;
                 }
             

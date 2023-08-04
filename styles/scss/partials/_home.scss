@@ -9,12 +9,13 @@ body{
         .homeTitle {
             color: white;
             text-align: center;
-            font-size: 400%;
+            font-size: 7vw;
             margin-top: 5.5rem;
         }
 
         // edits the picture of me on the home page
         .homeImg{
+            width: 40vw;
             margin-top: 2rem;
             border-radius: 100%;
         }
@@ -24,6 +25,7 @@ body{
             color: white;
             margin-top: 1.5rem;
             text-align: center;
+            font-size: 4vw;
         }
     }
 }

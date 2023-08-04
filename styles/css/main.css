@@ -16,8 +16,8 @@ body {
 body .burger {
   margin-left: 1rem;
   margin-top: 0.5rem;
-  width: 4rem;
-  height: 4rem;
+  width: 6.5vw;
+  height: auto;
   position: absolute;
   top: 0rem;
   left: 0rem;
@@ -42,8 +42,8 @@ body nav .navContent .x {
   position: absolute;
   top: 0;
   left: 0;
-  width: 4rem;
-  height: 4rem;
+  width: 6.5vw;
+  height: auto;
   margin-top: 1rem;
   margin-left: 1rem;
   display: none;
@@ -55,7 +55,7 @@ body nav .navContent .containerLink .navLink {
   text-decoration: none;
   justify-content: center;
   color: white;
-  font-size: 250%;
+  font-size: 3.5vw;
   display: none;
 }
 body nav .navContent .containerLink .activeLink {
@@ -82,10 +82,11 @@ body section {
 body section .homeTitle {
   color: white;
   text-align: center;
-  font-size: 400%;
+  font-size: 7vw;
   margin-top: 5.5rem;
 }
 body section .homeImg {
+  width: 40vw;
   margin-top: 2rem;
   border-radius: 100%;
 }
@@ -93,6 +94,7 @@ body section .homeText {
   color: white;
   margin-top: 1.5rem;
   text-align: center;
+  font-size: 4vw;
 }
 
 body {
