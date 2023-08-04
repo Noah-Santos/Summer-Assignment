@@ -5,6 +5,7 @@ $(function(){
             $(".x").css("display", "block");
             $(".navLink").css("display", "flex");
         });
+        $("section").css("filter", "blur(4px)");
     });
 
     // when x is clicked, close nav
@@ -12,5 +13,6 @@ $(function(){
         $(".x").css("display", "none");
         $(".navLink").css("display", "none");
         $(".nav").animate({width: "0%"}, 300);
+        $("section").css("filter", "blur(0px)");
     });
 })

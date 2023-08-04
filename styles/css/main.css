@@ -21,6 +21,7 @@ body .burger {
   position: absolute;
   top: 0rem;
   left: 0rem;
+  z-index: 2;
 }
 body nav {
   width: 0%;
@@ -82,11 +83,16 @@ body section .homeTitle {
   color: white;
   text-align: center;
   font-size: 400%;
-  margin-top: 7rem;
+  margin-top: 5.5rem;
 }
 body section .homeImg {
-  margin-top: 1rem;
+  margin-top: 2rem;
   border-radius: 100%;
+}
+body section .homeText {
+  color: white;
+  margin-top: 1.5rem;
+  text-align: center;
 }
 
 body {
