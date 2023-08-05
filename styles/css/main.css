@@ -4,19 +4,20 @@
   font-family: drawText2;
 }
 
-body, html {
+body,
+html {
   height: 100%;
   width: 100%;
 }
 
-body {
-  overflow: hidden;
+.example::-webkit-scrollbar {
+  display: none;
 }
 
 body .burger {
   margin-left: 1rem;
   margin-top: 0.5rem;
-  width: 6.5vw;
+  width: 5vw;
   height: auto;
   position: absolute;
   top: 0rem;
@@ -42,7 +43,7 @@ body nav .navContent .x {
   position: absolute;
   top: 0;
   left: 0;
-  width: 6.5vw;
+  width: 5vw;
   height: auto;
   margin-top: 1rem;
   margin-left: 1rem;
@@ -57,6 +58,8 @@ body nav .navContent .containerLink .navLink {
   color: white;
   font-size: 3.5vw;
   display: none;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
 }
 body nav .navContent .containerLink .activeLink {
   border-bottom: 5px solid white;
@@ -82,11 +85,11 @@ body section {
 body section .homeTitle {
   color: white;
   text-align: center;
-  font-size: 7vw;
-  margin-top: 5.5rem;
+  font-size: 5.4vw;
+  margin-top: 4rem;
 }
 body section .homeImg {
-  width: 40vw;
+  width: 28vw;
   margin-top: 2rem;
   border-radius: 100%;
 }
@@ -94,7 +97,7 @@ body section .homeText {
   color: white;
   margin-top: 1.5rem;
   text-align: center;
-  font-size: 4vw;
+  font-size: 3vw;
 }
 
 body .flexbox {
