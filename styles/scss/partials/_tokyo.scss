@@ -40,9 +40,19 @@ body{
             .img {
                 // display: flex;
                 // flex-grow: 2;
-                width: 20vw;
+                width: 15vw;
                 border-radius: 20px;
                 margin-right: 8vw;
+            }
+
+            // class to show image
+            .active{
+                display: block;
+            }
+
+            // class to hide image
+            .deactive{
+                display: none;
             }
         }
     }
