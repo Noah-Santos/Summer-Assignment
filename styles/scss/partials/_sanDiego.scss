@@ -6,7 +6,7 @@ body{
         justify-content: space-evenly;
 
         // make the section for the for one row
-        .tokyoSection{
+        .sanDiegoSection{
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -15,7 +15,7 @@ body{
             margin-bottom: 2vh;
 
             // edits the title of the page
-            .tokyoTitle{
+            .sanDiegoTitle{
                 color: white;
                 font-size: 4vw;
                 text-align: center;
@@ -60,6 +60,11 @@ body{
 
             // class to show image
             .active{
+                display: block;
+            }
+
+            // second active class for another slideshow
+            .active2{
                 display: block;
             }
 

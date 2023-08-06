@@ -134,6 +134,7 @@ body .flexbox .tokyoSection .textCont .text {
   padding-left: 0.25vw;
   padding-right: 0.25vw;
   margin-bottom: 0;
+  font-size: 1.25vw;
 }
 body .flexbox .tokyoSection .img {
   width: 15vw;
@@ -183,6 +184,7 @@ body .flexbox .kyotoSection .textCont .text {
   padding-left: 0.25vw;
   padding-right: 0.25vw;
   margin-bottom: 0;
+  font-size: 1.25vw;
 }
 body .flexbox .kyotoSection .img {
   width: 15vw;
@@ -192,7 +194,63 @@ body .flexbox .kyotoSection .img {
 body .flexbox .kyotoSection .active {
   display: block;
 }
+body .flexbox .kyotoSection .active2 {
+  display: block;
+}
 body .flexbox .kyotoSection .deactive {
+  display: none;
+}
+
+body .flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+body .flexbox .sanDiegoSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+body .flexbox .sanDiegoSection .sanDiegoTitle {
+  color: white;
+  font-size: 4vw;
+  text-align: center;
+}
+body .flexbox .sanDiegoSection .textCont {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8vw;
+  margin-right: 8vw;
+}
+body .flexbox .sanDiegoSection .textCont .text {
+  color: white;
+  background-color: #1e1e1e;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 0.25vw;
+  padding-right: 0.25vw;
+  margin-bottom: 0;
+  font-size: 1.25vw;
+}
+body .flexbox .sanDiegoSection .img {
+  width: 15vw;
+  border-radius: 20px;
+  margin-right: 8vw;
+}
+body .flexbox .sanDiegoSection .active {
+  display: block;
+}
+body .flexbox .sanDiegoSection .active2 {
+  display: block;
+}
+body .flexbox .sanDiegoSection .deactive {
   display: none;
 }
 

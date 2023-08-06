@@ -20,7 +20,7 @@ $(function(){
             currentActiveArray[currentActiveArray.length-1] = num;
         }
         
-        if(currentActiveArray2[currentActiveArray2.length-1] == 2){
+        if(currentActiveArray2[currentActiveArray2.length-1] == 5){
             currentActiveArray2[currentActiveArray2.length-1] = 1;
         }else{
             let num = currentActiveArray2[currentActiveArray2.length-1];
