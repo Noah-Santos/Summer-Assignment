@@ -12,14 +12,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
 </head>
-<body class="w-100">
+<body class="w-100 h-100">
     <!-- adds burger to the page -->
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="burger" id="burger">
         <path fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
             d="M3 6h18M3 12h18M3 18h18" />
     </svg>
     <!-- adds nav to be opened when page opens -->
-    <nav class="nav">
+    <nav class="h-100 nav">
         <div class="navContent w-100 h-75">
             <!-- close button -->
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" class="x" id="close">
@@ -30,10 +30,10 @@
                 <a href="./index.html" class="navLink w-auto">Home Page</a>
             </div>
             <div class="containerLink">
-                <a href="./tokyo.html" class="navLink activeLink w-auto">Tokyo, Japan</a>
+                <a href="./tokyo.html" class="navLink w-auto">Tokyo, Japan</a>
             </div>
             <div class="containerLink">
-                <a href="./kyoto.html" class="navLink w-auto">Kyoto, Japan</a>
+                <a href="./kyoto.html" class="navLink activeLink w-auto">Kyoto, Japan</a>
             </div>
             <div class="containerLink">
                 <a href="" class="navLink w-auto">San Diego, CA</a>
@@ -41,59 +41,50 @@
         </div>
     </nav>
 
-    <!-- main content of the tokyo page -->
-    <section class="w-100">
-        <div class="flexbox w-100">
+    <!-- main content of the kyoto page -->
+    <section class="h-100 w-100">
+        <div class="flexbox h-100 w-100">
             <!-- title of the page -->
-            <div class="tokyoSection">
-                <h2 class="tokyoTitle">Tokyo, Japan</h2>
+            <div class="kyotoSection">
+                <h2 class="kyotoTitle">Kyoto, Japan</h2>
             </div>
 
-            <!-- one section of text and image for Shibuya trip -->
-            <div class="tokyoSection">
+            <!-- one section of text and image for bamboo forest -->
+            <div class="kyotoSection">
                 <div class="textCont w-75">
-                    <p class="text">The famous Shibuya Square in Shibuya, Tokyo. It's basically the Japan equivalent of Times Square in New York.</p>
+                    <p class="text">The bamboo forest is a large forest of bamboo that stretches very high and is very scenic.</p>
                 </div>
                 <div>
-                    <img src="../Images/Tokyo/Shibuya.JPG" alt="Shibuya Square" class="img">
+                    <img src="../Images/Kyoto/Bamboo Forest.JPG" alt="Bamboo Forest" class="img">
                 </div>
             </div>
             
-            <!-- one section of text and images for meiji trip -->
-            <div class="tokyoSection">
+            <!-- one section of text and images for fushimi inari -->
+            <div class="kyotoSection">
                 <div class="textCont w-75">
-                    <p class="text">Meiji Jingu is the shrine for emperor Meiji and empress Shoken. The shrine is surrounded by lots of trees and the entrances are covered by a large torri.</p>
+                    <p class="text">Fushimi Inari is a shrine with a bunch of torii. The torii form tunnels that you can walk through.</p>
                 </div>
                 <div>
-                    <img src="../Images/Tokyo/Meiji Jingu 1.JPG" alt="Meiji Jingu 1" class="img active" id="meiji1">
-                    <img src="../Images/Tokyo/Meiji Jingu 2.JPG" alt="Meiji Jingu 2" class="img deactive" id="meiji2">
-                    <img src="../Images/Tokyo/Meiji Jingu 3.JPG" alt="Meiji Jingu 3" class="img deactive" id="meiji3">
+                    <img src="../Images/Kyoto/Fushimi Inari 1.JPG" alt="Fushimi Inari 1" class="img active" id="inari1">
+                    <img src="../Images/Kyoto/Fushimi Inari 2.JPG" alt="Fushimi Inari 2" class="img deactive" id="inari2">
+                    <img src="../Images/Kyoto/Fushimi Inari 3.JPG" alt="Fushimi Inari 3" class="img deactive" id="inari3">
+                    <img src="../Images/Kyoto/Fushimi Inari 4.JPG" alt="Fushimi Inari 4" class="img deactive" id="inari4">
                 </div>
             </div>
 
-            <!-- section for ginza -->
-            <div class="tokyoSection">
+            <!-- section for Gion -->
+            <div class="kyotoSection">
                 <div class="textCont w-75">
-                    <p class="text">Ginza is a very popular shopping district. There are lots of cafes and multi-level shopping  buildings.</p>
+                    <p class="text">Gion is a traditional district with old style buildings. There are lots of shops and restaurants. You can even get dressed in traditional komonos.</p>
                 </div>
                 <div>
-                    <img src="../Images/Tokyo/Ginza 2.JPG" alt="Ginza" class="img">
-                </div>
-            </div>
-
-            <!-- section for shirohige -->
-            <div class="tokyoSection">
-                <div class="textCont w-75">
-                    <p class="text">Shirohige was a shopping district with lots of sweets like cookies and cream puffs. There were also a lot of places to go thrifting.</p>
-                </div>
-                <div>
-                    <img src="../Images/Tokyo/Shirohige.JPG" alt="Shirohige" class="img">
+                    <img src="../Images/Kyoto/Gion 2.jpg" alt="Gion" class="img">
                 </div>
             </div>
         </div>
     </section>
 
     <script src="../js/nav.js"></script>
-    <script src="../js/tokyo.js"></script>
+    <script src="../js/kyoto.js"></script>
 </body>
 </html>

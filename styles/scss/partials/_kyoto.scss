@@ -6,7 +6,7 @@ body{
         justify-content: space-evenly;
 
         // make the section for the for one row
-        .tokyoSection{
+        .kyotoSection{
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -15,7 +15,7 @@ body{
             margin-bottom: 2vh;
 
             // edits the title of the page
-            .tokyoTitle{
+            .kyotoTitle{
                 color: white;
                 font-size: 4vw;
                 text-align: center;
@@ -25,8 +25,8 @@ body{
             .textCont{                
                 height: auto;
                 display: flex;
-                justify-content: center;
                 align-items: center;
+                justify-content: center;
                 margin: {
                     left: 8vw;
                     right: 8vw

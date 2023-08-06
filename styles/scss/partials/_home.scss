@@ -4,26 +4,24 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 
     // moves the home title and it's properties
     .homeTitle {
       color: white;
       text-align: center;
       font-size: 5.4vw;
-      margin-top: 4rem;
     }
 
     // edits the picture of me on the home page
     .homeImg {
       width: 28vw;
-      margin-top: 2rem;
       border-radius: 100%;
     }
 
     // edits the text at the bottom of the home page
     .homeText {
       color: white;
-      margin-top: 1.5rem;
       text-align: center;
       font-size: 3vw;
     }
