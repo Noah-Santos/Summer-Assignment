@@ -280,8 +280,8 @@ body .imagePop .popUpText {
 }
 body .imagePop .image {
   display: none;
-  border-radius: 8px;
-  width: 50vw;
+  border-radius: 30px;
+  width: 40vw;
 }
 
 body {
