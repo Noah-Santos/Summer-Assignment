@@ -33,5 +33,5 @@ $(function(){
         let newActive2 = currentActiveArray2.join("");
         $(`#${newActive}`).removeClass("deactive").addClass("active");
         $(`#${newActive2}`).removeClass("deactive").addClass("active2");
-    }, 5000);
+    }, 3500);
 })

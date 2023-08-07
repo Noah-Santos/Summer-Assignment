@@ -20,7 +20,7 @@ $(function(){
         // sets new image to active
         let newActive = currentActiveArray.join("");
         $(`#${newActive}`).removeClass("deactive").addClass("active");
-    }, 5000);
+    }, 3500);
 })
 
 // // will call change function every 5 seconds

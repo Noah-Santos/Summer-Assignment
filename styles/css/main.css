@@ -134,7 +134,7 @@ body .flexbox .tokyoSection .textCont .text {
   padding-left: 0.25vw;
   padding-right: 0.25vw;
   margin-bottom: 0;
-  font-size: 1.25vw;
+  font-size: 2vw;
 }
 body .flexbox .tokyoSection .img {
   width: 15vw;
@@ -184,7 +184,7 @@ body .flexbox .kyotoSection .textCont .text {
   padding-left: 0.25vw;
   padding-right: 0.25vw;
   margin-bottom: 0;
-  font-size: 1.25vw;
+  font-size: 2vw;
 }
 body .flexbox .kyotoSection .img {
   width: 15vw;
@@ -237,7 +237,7 @@ body .flexbox .sanDiegoSection .textCont .text {
   padding-left: 0.25vw;
   padding-right: 0.25vw;
   margin-bottom: 0;
-  font-size: 1.25vw;
+  font-size: 2vw;
 }
 body .flexbox .sanDiegoSection .img {
   width: 15vw;
@@ -252,6 +252,32 @@ body .flexbox .sanDiegoSection .active2 {
 }
 body .flexbox .sanDiegoSection .deactive {
   display: none;
+}
+
+body .imagePop {
+  z-index: 6;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.8901960784);
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+body .imagePop .popUpText {
+  color: white;
+  text-align: center;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  font-size: 3vw;
+}
+body .imagePop .image {
+  display: none;
+  border-radius: 8px;
+  width: 50vw;
 }
 
 body {
