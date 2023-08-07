@@ -86,7 +86,8 @@ body section {
 body section .homeTitle {
   color: white;
   text-align: center;
-  font-size: 5.4vw;
+  font-size: 6vw;
+  font-family: drawText2;
 }
 body section .homeImg {
   width: 28vw;
